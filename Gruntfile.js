@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         typescript: {
             base: {
                 src: ['src/**/*.ts'],
-                dest: 'gen',
+                dest: 'gen/src/headsanalogsensorcomp/lib/',
                 options: {
                     module: 'commonjs',
                     target: 'es5',
